@@ -3,38 +3,74 @@
 body {
     padding: 0;
     margin: 0;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-section {
-    padding: 0 200px;
+    padding: 0px 300px 100px;
     background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height: 40%;
+    
 }
 
-.top-section > .header {
+.top-section .header {
     display: flex;
     align-items: center;
 }
 
-.header > .logo {
+.header .logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
     margin-right: auto;
 }
 
-.header > .links {
-    font-size: 18px;
-    color: #E5E7EB;
+.header .links {
     display: flex;
     list-style: none;
     gap: 24px;
 }
 
-.top-section > .website-intro {
+.top-section .website-intro {
     display: flex;
+    flex: 1;
 }
 
-.website-intro > .intro-text {
-
+.website-intro .intro-text {
+    flex: 1;
 }
+
+.intro-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.intro-text button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 24px;
+}
+
+.website-intro .intro-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
