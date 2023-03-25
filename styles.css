@@ -9,7 +9,7 @@ body {
     flex-direction: column;
 }
 
-.top-section, .images-section {
+.top-section, .images-section,.quote-section {
     padding: 0px 300px 100px;
 }
 
@@ -100,4 +100,32 @@ body {
     width: 150px;
     border: 4px solid #3882F6;
     border-radius: 10px;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 120px 150px 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #232c38;
+    padding: 0;
+    margin: 0;
+}
+
+.quoted-by {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
 }
