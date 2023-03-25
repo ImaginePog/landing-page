@@ -9,7 +9,7 @@ body {
     flex-direction: column;
 }
 
-.top-section, .images-section,.quote-section {
+.top-section, .images-section,.quote-section,.signup-section {
     padding: 0px 300px 100px;
 }
 
@@ -58,14 +58,19 @@ body {
     margin: 0;
 }
 
-.intro-text button {
+
+button {
     font-size: 18px;
     font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 24px;
+    color: #F9FAF8;
+}
+
+.intro-text button {
     color: #F9FAF8;
     background-color: #3882F6;
     border-style: none;
-    border-radius: 5px;
-    padding: 10px 24px;
 }
 
 .website-intro .intro-image {
@@ -128,4 +133,37 @@ body {
     font-size: 24px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.signup-section {
+    padding-top: 100px;
+}
+
+.signup-box {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    align-items: center;
+
+}
+
+.signup-box h3, .signup-box p {
+    margin: 0;
+    padding: 0;
+}
+
+.signup-box h3 {
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.signup-box p {
+    color: #E5E7EB;
+}
+
+.signup-box button {
+    background-color: #3882F6;
+    border: #F9FAF8 2px solid;
 }
